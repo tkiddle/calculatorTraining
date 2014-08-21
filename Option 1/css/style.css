@@ -1,0 +1,22 @@
+/* Project CSS file */
+.clearfix:after{content: ""; display: table; clear: both;}
+
+legend{display:none;}
+
+#calculator{position:relative; width:232px; padding:12px; margin:60px auto; background:#eee;}
+#calculator{border-radius:6px;}
+
+.display{background:#fff; padding:6px 12px; margin-bottom:14px;}
+.display input[type=text]{width:100%; height:45px; padding:0; border:none; font-size:24px; text-transform:uppercase; text-align:right; background:none;}
+
+.numbers{float:left; width:173px;}
+.operators{position:relative; float:right; width:55px; top:-59px;}
+.equals{position:absolute; bottom:12px; left:130px; position:absolute;}
+
+button{width:55px; height:55px; margin-bottom:4px;}
+button[value=clear]{width:114px;}
+.equals button{width:114px;}
+
+
+
+
